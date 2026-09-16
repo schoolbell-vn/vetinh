@@ -1,0 +1,13 @@
+{
+  "name": "Am Thanh May Ve Tinh (ESP32-S3)",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "CHUONG_BAO_VETINH_22.ino.bootloader.bin", "offset": 0 },
+        { "path": "CHUONG_BAO_VETINH_22.ino.partitions.bin", "offset": 32768 },
+        { "path": "CHUONG_BAO_VETINH_22.ino.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
